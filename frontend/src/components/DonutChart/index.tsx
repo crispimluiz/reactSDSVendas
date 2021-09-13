@@ -3,7 +3,7 @@ import axios from 'axios';
 import Chart from 'react-apexcharts';
 import { useState, useEffect } from 'react';
 import { BASE_URL } from 'utils/request';
-import { SaleSum } from 'types/sales';
+import { SaleSum } from 'types/sale';
 
 type ChartData = {
   labels: string[];
